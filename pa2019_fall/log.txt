@@ -1,0 +1,386 @@
+00030000:   e9 00 00 00 00                            jmp $0x0
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07fffff0
+ebp	0x00000000
+esi	0x00000000
+edi	0x00000000
+eip	0x00030005
+  
+00030005:   55                                        pushl %ebp
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07ffffec
+ebp	0x00000000
+esi	0x00000000
+edi	0x00000000
+eip	0x00030006
+  
+00030006:   89 e5                                     movl %esp, %ebp
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07ffffec
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030008
+  
+00030008:   53                                        pushl %ebx
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07ffffe8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030009
+  
+00030009:   83 ec 10                                  subl $0x10, %esp
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003000c
+  
+0003000c:   e8 8f 00 00 00                            call $0x8f
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00000000
+ebx	0x00000000
+esp	0x07ffffd4
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x000300a0
+  
+000300a0:   8b 14 24                                  movl (%esp), %edx
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x0003000c
+ebx	0x00000000
+esp	0x07ffffd4
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x000300a3
+  
+000300a3:   c3                                        ret
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x0003000c
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030011
+  
+00030011:   81 c2 ef 2f 00 00                         addl $0x2fef, %edx
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030017
+  
+00030017:   c7 45 f0 00 00 00 00                      movl $0x0, -0x10(%ebp)
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003001e
+  
+0003001e:   c7 45 f8 00 00 00 00                      movl $0x0, -0x8(%ebp)
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030025
+  
+00030025:   eb 48                                     jmp $0x48
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003006f
+  
+0003006f:   8b 45 f8                                  movl -0x8(%ebp), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030072
+  
+00030072:   83 f8 07                                  cmpl $0x7, %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030075
+  
+00030075:   76 b0                                     jna $0xb0
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030027
+  
+00030027:   c7 45 f4 00 00 00 00                      movl $0x0, -0xc(%ebp)
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003002e
+  
+0003002e:   eb 34                                     jmp $0x34
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030064
+  
+00030064:   8b 45 f4                                  movl -0xc(%ebp), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030067
+  
+00030067:   83 f8 07                                  cmpl $0x7, %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003006a
+  
+0003006a:   76 c4                                     jna $0xc4
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030030
+  
+00030030:   8b 45 f8                                  movl -0x8(%ebp), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030033
+  
+00030033:   8b 8c 82 20 00 00 00                      movl 0x20(%edx,%eax,4), %ecx
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003003a
+  
+0003003a:   8b 45 f4                                  movl -0xc(%ebp), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003003d
+  
+0003003d:   8b 84 82 20 00 00 00                      movl 0x20(%edx,%eax,4), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030044
+  
+00030044:   8d 1c 01                                  leal (%ecx,%eax,1), %ebx
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030047
+  
+00030047:   8b 45 f0                                  movl -0x10(%ebp), %eax
+ 
+eax	0x00000000
+ecx	0x00000000
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003004a
+  
+0003004a:   8d 48 01                                  leal 0x1(%eax), %ecx
+ 
+eax	0x00000000
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003004d
+  
+0003004d:   89 4d f0                                  movl %ecx, -0x10(%ebp)
+ 
+eax	0x00000000
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030050
+  
+00030050:   8b 84 82 40 00 00 00                      movl 0x40(%edx,%eax,4), %eax
+ 
+eax	0xffffffff
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030057
+  
+00030057:   39 c3                                     cmpl %eax, %ebx
+ 
+eax	0xffffffff
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030059
+  
+00030059:   74 06                                     je $0x6
+ 
+eax	0xffffffff
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x0003005b
+  
+0003005b:   b8 01 00 00 00                            movl $0x1, %eax
+ 
+eax	0x00000001
+ecx	0x00000001
+edx	0x00032ffb
+ebx	0x00000000
+esp	0x07ffffd8
+ebp	0x07ffffec
+esi	0x00000000
+edi	0x00000000
+eip	0x00030060
+  
+nemu: HIT [0;31mBAD[0m TRAP at eip = 0x00030060
+NEMU2 terminated
